@@ -11,7 +11,7 @@ use SimpleSAML\Module\cirrusgeneral\Auth\AuthProcRuleInserter;
  */
 class PhpConditionalAuthProcInserter extends BaseConditionalAuthProcInserter
 {
-    private string $condition;
+    private $condition;
 
 
     public function __construct(&$config, $reserved)
